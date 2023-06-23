@@ -8,7 +8,7 @@
   "description": "",
   "environment_variables": {},
   "working_directory": "/home/jovyan/workspace/lamindb/docs/guide",
-  "start_script": "mamba install -n base -c conda-forge ipylab ipytree bqplot ipywidgets numpy\nmamba install -n saturn -c conda-forge ipylab ipytree bqplot ipywidgets numpy\n/opt/saturncloud/envs/saturn/bin/pip install 'lamindb[bionty,lamin1]' scanpy\n",
+  "start_script": "mamba install -n base -c conda-forge ipylab ipytree bqplot ipywidgets numpy\nmamba install -n saturn -c conda-forge ipylab ipytree bqplot ipywidgets numpy\n/opt/saturncloud/envs/saturn/bin/pip install 'lamindb[bionty,jupyter]' scanpy\n",
   "git_repositories": [
     {
       "url": "git@github.com:laminlabs/lamindb.git",
